@@ -1,24 +1,32 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class types {
 
     public static void main(String[] args) {
-	private static String name Dog=bull;
-        private static String name Dog=peekenes;
-        private static String name Dog=chaochao;
-        public static void main (String args [])
-        {
+	    final String nameDog1="bull";
+         final String nameDog2="peekenes";
+         final String nameDog3="chaochao";
+        String dog;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Dog=");
+        dog=sc.nextLine();
             int age=10;
             switch (dog){
-                case dog;
-                System.out.printl ("Is it a bull");
+                case nameDog1:
+                System.out.println ("Is it a bull");
                 break;
-                System.out.printl ("Is it a chaochao");
+                case nameDog2:
+                    System.out.println ("Is it a chaochao");
                 break;
-                System.out.printl ("Is it a peekenes");
+                case nameDog3:
+                    System.out.println ("Is it a peekenes");
                 break;
-                default
-            }
+                default:
+                    System.out.println("error");
+                    break;
+
         }
     }
 }
